@@ -1,0 +1,27 @@
+{
+  "name": "bkeng-crawl-tool",
+  "version": "1.0.0",
+  "description": "Tool to crawl news from http://bkenglish.edu.vn/",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namgold/bkeng-crawl-tool.git"
+  },
+  "keywords": [
+    "crawl",
+    "tool"
+  ],
+  "author": "namgold",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/namgold/bkeng-crawl-tool/issues"
+  },
+  "homepage": "https://github.com/namgold/bkeng-crawl-tool#readme",
+  "dependencies": {
+    "jsdom": "^16.2.2",
+    "node-fetch": "^2.6.0"
+  }
+}
